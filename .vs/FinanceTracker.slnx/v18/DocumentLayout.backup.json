@@ -1,0 +1,285 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\data\\repositories\\transactioncategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:data\\repositories\\transactioncategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\data\\repositories\\transactiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:data\\repositories\\transactiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\data\\repositories\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:data\\repositories\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\data\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:data\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\data\\interfaces\\itransactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:data\\interfaces\\itransactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\data\\interfaces\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:data\\interfaces\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\data\\interfaces\\itransactiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:data\\interfaces\\itransactiontyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\todolist.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:todolist.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\models\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:models\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\models\\transactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:models\\transactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\models\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:models\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|c:\\users\\ruzan\\desktop\\.prog\\c#\\financetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2F43301-FBCE-B68A-297F-3E6BC41AF78F}|FinanceTracker.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Repositories\\TransactionCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\TransactionCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Repositories\\TransactionCategoryRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\TransactionCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T11:53:44.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITransactionCategory.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Interfaces\\ITransactionCategory.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\ITransactionCategory.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Interfaces\\ITransactionCategory.cs",
+              "RelativeToolTip": "Data\\Interfaces\\ITransactionCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T11:42:33.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T19:28:43.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Repositories\\WalletRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\WalletRepository.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Repositories\\WalletRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\WalletRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:49:14.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IWalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Interfaces\\IWalletRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IWalletRepository.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Interfaces\\IWalletRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IWalletRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:22:32.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Repositories\\TransactionTypeRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\TransactionTypeRepository.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Repositories\\TransactionTypeRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\TransactionTypeRepository.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T19:25:54.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITransactionTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Interfaces\\ITransactionTypeRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\ITransactionTypeRepository.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Interfaces\\ITransactionTypeRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\ITransactionTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T19:15:11.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:30:27.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T18:48:18.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Models\\Wallet.cs",
+              "RelativeDocumentMoniker": "Models\\Wallet.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Models\\Wallet.cs",
+              "RelativeToolTip": "Models\\Wallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T18:33:07.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransactionCategory.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Models\\TransactionCategory.cs",
+              "RelativeDocumentMoniker": "Models\\TransactionCategory.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Models\\TransactionCategory.cs",
+              "RelativeToolTip": "Models\\TransactionCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T18:31:02.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Models\\Interfaces\\IEntity.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IEntity.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Models\\Interfaces\\IEntity.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:29:12.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransactionType.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Models\\TransactionType.cs",
+              "RelativeDocumentMoniker": "Models\\TransactionType.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Models\\TransactionType.cs",
+              "RelativeToolTip": "Models\\TransactionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:25:28.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "Data\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:05:57.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-13T10:35:00.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ToDoList.txt",
+              "DocumentMoniker": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\ToDoList.txt",
+              "RelativeDocumentMoniker": "ToDoList.txt",
+              "ToolTip": "C:\\Users\\ruzan\\Desktop\\.Prog\\C#\\FinanceTracker\\ToDoList.txt",
+              "RelativeToolTip": "ToDoList.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-26T11:13:02.357Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
