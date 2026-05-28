@@ -39,6 +39,24 @@ namespace FinanceTracker.Data.Repositories
             } : throw new Exception("Wallet not found");
         }
 
+        public async Task<IEnumerable<Models.Wallet>> GetByCurrencyAsync(string currency)
+        {
+            await using var command = DataSource.CreateCommand("SELECT * FROM wallet WHERE currency = @currency");
+            command.Parameters.AddWithValue("@currency", currency);
+            await using var reader = await command.ExecuteReaderAsync();
+            var list = new List<Models.Wallet>();
+            while (await reader.ReadAsync())
+            {
+                list.Add(new Models.Wallet
+                {
+                    Id = reader.GetInt32(0),
+                    WalletName = reader.GetString(1),
+                    Balance = reader.GetDecimal(2)
+                });
+            }
+            return list;
+        }
+
         public async Task<IEnumerable<Models.Wallet>> GetAllAsync() 
         {
             await using var command = DataSource.CreateCommand("SELECT * FROM wallet");
@@ -46,7 +64,8 @@ namespace FinanceTracker.Data.Repositories
             var list = new List<Models.Wallet>();
             while (await reader.ReadAsync()) 
             {
-                list.Add(new Models.Wallet {
+                list.Add(new Models.Wallet 
+                {
                     Id = reader.GetInt32(0),
                     WalletName = reader.GetString(1),
                     Balance= reader.GetDecimal(2)

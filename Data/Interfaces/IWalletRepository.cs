@@ -7,5 +7,7 @@ namespace FinanceTracker.Data.Interfaces
     internal interface IWalletRepository : IRepository<Models.Wallet>
     {
         Task<Models.Wallet> GetByNameAsync(string name);
+
+        Task<IEnumerable<Models.Wallet>> GetByCurrencyAsync(string currency);
     }
 }

@@ -15,11 +15,16 @@ var databaseConnection = new DatabaseConnection(configuration
 try
 {
     var dataSource = databaseConnection.CreateDataSource();
-    var transactionTypeRepository = new TransactionTypeRepository(dataSource);
-    while (true)
+    var NewCurrencyRepository = new CurrencyRepository(dataSource);
+    await NewCurrencyRepository.DeleteAsync(1);
+    var NewCurrency = new Currency
     {
-        Console.ReadLine();
-    }
+        CurrencyCode = "USD",
+        CurrencyName = "United States Dollar",
+        Symbol = "$",
+    };
+    var addedCurrency = await NewCurrencyRepository.AddAsync(NewCurrency);
+    Console.WriteLine($"Added Currency: {addedCurrency.Id} - {addedCurrency.CurrencyName} ({addedCurrency.CurrencyCode}) {addedCurrency.Symbol}) Created At: {addedCurrency.CreatedAt} Updated At: {addedCurrency.UpdatedAt}");
 }
 catch (Exception ex)
 {

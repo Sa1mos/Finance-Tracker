@@ -1,24 +1,34 @@
-create table Transaction_Type (
-id serial primary key NOT NULL unique,
-transaction_type varchar not null unique
+CREATE TABLE Transaction_Categories (
+    id SERIAL PRIMARY KEY,
+    category VARCHAR(100) NOT NULL UNIQUE,
+    description TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-create table Transaction_Categories (
-id serial primary key not null unique,
-category varchar not null unique,
-transaction_type_id integer references Transaction_Type (id)
+CREATE TABLE Currencies (
+    id SERIAL PRIMARY KEY,
+    code VARCHAR(3) NOT NULL UNIQUE,
+    name VARCHAR(50) NOT NULL,
+    symbol VARCHAR(10) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-create table Wallets (
-id serial primary key not null unique,
-wallet varchar unique not null
-balance decimal (10, 2) not null default 0.00 check(balance >= 0.00)
+CREATE TABLE Wallets (
+    id SERIAL PRIMARY KEY,
+    wallet VARCHAR(100) NOT NULL UNIQUE,
+    balance DECIMAL(10, 2) NOT NULL DEFAULT 0.00 CHECK(balance >= 0.00),
+    currency_id INTEGER NOT NULL REFERENCES Currencies(id),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-create table Transactions (
-id serial primary key not null unique,
-transaction_category_id integer references Transaction_Categories (id) not null,
-wallet_id integer references Wallets (id) not null,
-amount DECIMAL(10, 2) not null,
-created_at timestamp not null
+CREATE TABLE Transactions (
+    id SERIAL PRIMARY KEY,
+    transaction_category_id INTEGER NOT NULL REFERENCES Transaction_Categories(id),
+    wallet_id INTEGER NOT NULL REFERENCES Wallets(id),
+    amount DECIMAL(10, 2) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

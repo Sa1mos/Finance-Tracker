@@ -1,6 +1,5 @@
 ﻿using FinanceTracker.Data.Interfaces;
 using Npgsql;
-using System.Data;
 
 namespace FinanceTracker.Data.Repositories
 {
