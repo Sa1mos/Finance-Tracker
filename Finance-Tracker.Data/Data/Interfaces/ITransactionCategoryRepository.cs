@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FinanceTracker.Data.Interfaces
 {
-    public interface ITransactionCategory : IRepository<Models.TransactionCategory>
+    public interface ITransactionCategoryRepository : IRepository<Models.TransactionCategory>
     {
         Task<Models.TransactionCategory> GetByNameAsync(string name);
     }

@@ -1,3 +1,3 @@
 <Solution>
-  <Project Path="FinanceTracker.csproj" />
+    <Project Path="Finance-Tracker.Data/Finance-Tracker.Data.csproj"/>
 </Solution>

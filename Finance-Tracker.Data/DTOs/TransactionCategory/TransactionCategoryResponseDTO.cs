@@ -1,12 +1,10 @@
-﻿using FinanceTracker.Models.Interfaces;
-
-namespace FinanceTracker.Models
+namespace FinanceTracker.Data.DTOs.TransactionCategory
 {
-    public class TransactionCategory : IEntity
-    {
+	public class TransactionCategoryResponseDTO
+	{
         public int Id { get; set; }
         public string Category { get; set; } = null!;
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-    }
+	}
 }

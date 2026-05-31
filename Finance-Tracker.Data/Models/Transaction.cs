@@ -8,8 +8,6 @@ namespace FinanceTracker.Models
         public int TransactionCategoryId { get; set; }
         public int WalletId { get; set; }
         public decimal Amount { get; set; }
-        public string? Description { get; set; }
-        public string? TransactionType { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
     }
